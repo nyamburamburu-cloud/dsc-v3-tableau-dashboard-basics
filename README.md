@@ -1,9 +1,7 @@
 # Building Dashboards with Tableau
 
 ## Introduction
-Until now, we have been using Tableau workbooks to get familiar with the Tableau interface. Now we will take your Tableau skills one step further and dive into one of the most useful features of Tableau -- __dashboards__. 
-
-First, we will describe the components of Tableau's dashboard workspace. Then, create a few vizzes and learn how to arrange and customize the dashboard to present our data. Next, we will then explore some of the interactive objects and see how they can be used to allow the viewer to ask questions of the data to gain insight.
+Until now, we have been using Tableau workbooks to get familiar with the Tableau interface. Now we will take your Tableau skills one step further and dive into Tableau dashboards. First, we will get familiar with the Tableau Dashboard Workspace. Then, we will show you how to create a dashboard with Tableau.
 
 ## Objectives
 You will be able to: 
@@ -13,12 +11,9 @@ You will be able to:
 
 ## Creating a Dashboard
 There are a few ways to create a dashboard:
-1. __The Menu Bar__
-In the menu bar at the top of the interface you will see __Dashboard__. Click on this drop down and you will see the options for _Dashboard_. Your first option should be __New Dashboard__, click on this option and you will be taken to a new, blank dashboard.
+1. Menu Bar: In the menu bar at the top of the interface you will see **Dashboard**. Click on this drop down and select **Dashboard > New Dashboard**.
 
-
-2. __The Sheets Tab__
-To the right of the __New Worksheet icon__, you will find the __New Dashboard__ icon, click on this icon and you will be taken to a new, blank dashboard.
+2. Sheets Tab: To the right of the **New Worksheet** icon, you will find the **New Dashboard** icon.
 
 <div>
     <center>
@@ -28,16 +23,16 @@ To the right of the __New Worksheet icon__, you will find the __New Dashboard__ 
     </center> </div>
 <br>
 
-## Device Type Card
+## Format Dashboard Layout with the Device Type Card
 One of the benefits of Tableau is that is allows you to easily create visualizations that improve the experience of your end user. In today's business environment, users are often trying to gain insights on the go and like to use mobile devices to interact with dashboards on Tableau.
 
-To facilitate use with mobile devices, Tableau has implemented a Device Type Card on the __Dashboard pane__. Right now, the Default is set to Phone, which will limit the maximum width and height of the dashboard.
+To facilitate use with mobile devices, Tableau has implemented a **Device Type Card** on the Dashboard pane. Right now, the Default is set to **Phone**, which will limit the maximum width and height of the dashboard.
 
-We also want to consider the experience of desktop users. We can do this by adding another device type to the card. On the Menu bar at the very top of the page, select Dashboard > Device Layouts > Add Desktop. 
+We also want to consider the experience of desktop users. We can do this by adding another device type to the card. On the Menu bar at the very top of the page, select **Dashboard > Device Layouts > Add Desktop**. 
 
 This option lets you see what your dashboard will look like on different devices, so you can ensure it will be visible. You can even customize the view for each device format. 
 
-If you want to remove a device, you can hover over it on the Dashboard pane and click on the `...` and select __Delete Layout__.
+If you want to remove a device, you can hover over it on the Dashboard pane and click on the `...` and select **Delete Layout**.
 
 <div>
     <center>
@@ -48,9 +43,9 @@ If you want to remove a device, you can hover over it on the Dashboard pane and 
 <br>
 
 ## Objects Card
-Objects are components that can be incorporated into your dashboard to add additional functionality, customization, and interactivity. Let's discuss a few of them using the labeled image below.
+Objects are components that can be incorporated into your dashboard to add additional functionality, customization, and interactivity. The primary objects we will use in this module are **Horizontal Containers** and **Vertical Containers**.
 
-__Keep in Mind__: __Ask Data__ (10), __Data Story__ (11), and __Extension__ (12), are not available with Tableau Public. If you would like to research their uses, you can look through the documentation on the <a src="https://www.tableau.com/" target="blank">Tableau Website</a>
+Let's discuss a few of them using the labeled image below.
 
 <div>
     <center>
@@ -60,29 +55,46 @@ __Keep in Mind__: __Ask Data__ (10), __Data Story__ (11), and __Extension__ (12)
     </center> </div>
 <br>
 
-1. __Horizontal__ - Adds a container to hold objects horizontally
-2. __Vertical__ - Adds a container to hold objects vertically (more on containers below)
-3. __Text__ - Adds text boxes in your dashboard to help convey information about your dashboard to the viewer
-4. __Image__ - Adds images to your dashboard such as a logo
-5. __Web Page__ - Allows you to embed a web page in your dashboard
-6. __Data Story__ - Embeds a presentation to add context
-7. __Blank__ - Adds some blank space
-8. __Navigation__ - Allows you to create a link to any part of the workbook so the viewer can look closer at some component
-9. __Download__ - Allows you to embed a button for the viewer to download the viz as a PDF or an image file
+1. **Horizontal** - Adds a container to hold objects horizontally
+2. **Vertical** - Adds a container to hold objects vertically (more on containers below)
+3. **Text** - Adds text boxes in your dashboard to help convey information about your dashboard to the viewer
+4. **Image** - Adds images to your dashboard such as a logo
+5. **Web Page** - Allows you to embed a web page in your dashboard
+6. **Data Story** - Embeds a presentation to add context
+7. **Blank** - Adds some blank space
+8. **Navigation** - Allows you to create a link to any part of the workbook so the viewer can look closer at some component
+9. **Download** - Allows you to embed a button for the viewer to download the viz as a PDF or an image file
+
+
+**Keep in Mind**: **Ask Data** (10), **Data Story** (11), and **Extension** (12), are not available with Tableau Public. If you would like to research their uses, you can look through the documentation on the <a src="https://www.tableau.com/" target="blank">Tableau Website</a>
+
 
 ### Object Placement
-Objects can be placed in the dashboard in one of two manners, either __Tiled__ or __Floating__. 
+Objects can be placed in the dashboard in one of two manners, either **Tiled** or **Floating**. 
 
-__Floating__ allows the object to be placed anywhere on the dashboard and can be overlapping any part of the view. 
+1. **Floating** allows the object to be placed anywhere on the dashboard and can be overlapping any part of the view. 
 
-__Tiled__ attribute forces the object to share the space with the other objects in the container. 
+2. **Tiled** attribute forces the object to share the space with the other objects in the container. 
 
-If your container has more than one object in it, you will notice that you can determine how the item is placed based on the position you drop it in. Tableau will highlight the position the object will align to as you hover over the container. The same is true for containers as you are adding them to the dashboard.
+## Building a Dashboard Layout
+By using horizontal and vertical containers in Tableau, you can easily organize your dashboard layout and arrange your sheets to create an effective and visually appealing data presentation.
 
-## Interactive Elements
-Tableau dashboards can contain interactive elements that allow the end user to alter the view of the data in the dashboard to answer a novel question or perform an __ad hoc analysis__. For example, users can apply __Filters__ to view the data that pertains to the segment of the population most relevant to them.
+To add containers:
+1. click on the "Insert" menu and select "Horizontal" or "Vertical" container or drag and drop the container from the Objects card to the dashboard canvas.
+2. You can adjust the size of the container by dragging the edges or by changing the size values in the "Size" tab of the "Format" menu.
+3. To add sheets/vizzes to the container, drag the sheet onto the container.
 
-We can apply filters by using the __More Options__ menu. You can find this menu by clicking the down arrow on the top right of the viz on your sheet.
+Repeat steps 1-3 to add more containers and sheets as desired.
+
+You can adjust the layout further by clicking on the "Layout" menu and selecting "Padding," "Gridlines," or "Guides" to help align and organize the elements on the dashboard.
+
+Once you are satisfied with the layout, you can add additional formatting and design elements using the "Format" menu, such as adding a title, adjusting the font, or changing the background color.
+
+
+## Interactive Elements: Filters
+Tableau dashboards can contain interactive elements that allow the end user to alter the view of the data in the dashboard to answer a novel question or perform an **ad hoc analysis**. For example, users can apply **Filters** to view the data that pertains to the segment of the population most relevant to them.
+
+We can apply filters by using the **More Options** menu. You can find this menu by clicking the down arrow on the top right of the viz on your sheet.
 
 <div>
     <center>
@@ -104,5 +116,3 @@ In this example, we add a filter for `Sales (SUM)`. In the upper-right corner, t
 
 ## Summary
 In this lesson, we introduced Tableau's Dashboard workspace and discussed some of the most important functionality, like Device Type and Objects. Then we discussed how you can add interactivity to your dashboards to allow users to ask questions of the data to gain insights. Finally, we discussed how each of these components works together to enhance the end user experience.
-
-In the upcoming lab, we will use this knowledge to build out a Tableau dashboard using the workbook we previously created. 
