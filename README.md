@@ -18,7 +18,7 @@ There are a few ways to create a dashboard:
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/data-science/images/v3/tableau/tableau/7_dashboard_basics/dashboard2-new.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/7_dashboard_basics/dashboard2-new.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -38,7 +38,7 @@ To accomodate desktop users, we can add a Desktop layout to the Device Card.
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/data-science/images/v3/tableau/tableau/7_dashboard_basics/device-layout.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/7_dashboard_basics/device-layout.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -51,7 +51,7 @@ Let's discuss a few of them using the labeled image below.
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/data-science/images/v3/tableau/tableau/7_dashboard_basics/more-options1.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/7_dashboard_basics/more-options1.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -121,7 +121,7 @@ We can apply filters by using the **More Options** menu. You can find this menu 
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/data-science/images/v3/tableau/tableau/7_dashboard_basics/more-options-2.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/7_dashboard_basics/more-options-2.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -131,11 +131,10 @@ In this example, we add a filter for `Sales (SUM)`. In the upper-right corner, t
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/data-science/images/v3/tableau/tableau/7_dashboard_basics/slider.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/7_dashboard_basics/slider.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
 
 ## Summary
 In this lesson, we introduced Tableau's Dashboard workspace and discussed some of the most important functionality, like Device Type and Objects. Then we discussed how you can add interactivity to your dashboards to allow users to ask questions of the data to gain insights. Finally, we discussed how each of these components works together to enhance the end user experience.
-
