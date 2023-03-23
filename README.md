@@ -1,4 +1,4 @@
-# Building Dashboards with Tableau
+# Tableau Dashboards - Dashboard Basics
 
 ## Introduction
 Until now, we have been using Tableau workbooks to get familiar with the Tableau interface. Now we will take your Tableau skills one step further and dive into Tableau dashboards. First, we will get familiar with the Tableau Dashboard Workspace. Then, we will show you how to create a dashboard with Tableau.
@@ -11,14 +11,14 @@ You will be able to:
 
 ## Creating a New Tableau Dashboard
 There are a few ways to create a dashboard:
-1. Menu Bar: In the menu bar at the top of the interface you will see **Dashboard**. Click on this drop down and select **Dashboard > New Dashboard**.
+1. Menu Bar: In the menu bar at the top of the interface you will see **Dashboard**. Click on this drop-down and select **Dashboard > New Dashboard**.
 
 2. Sheets Tab: To the right of the **New Worksheet** icon, you will find the **New Dashboard** icon.
 
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/dashboards/dashboard2-new.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/data-science/images/v3/tableau/tableau/7_dashboard_basics/dashboard2-new.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -38,7 +38,7 @@ To accomodate desktop users, we can add a Desktop layout to the Device Card.
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/dashboards/device-layout.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/data-science/images/v3/tableau/tableau/7_dashboard_basics/device-layout.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -51,7 +51,7 @@ Let's discuss a few of them using the labeled image below.
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/dashboards/more-options1.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/data-science/images/v3/tableau/tableau/7_dashboard_basics/more-options1.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -99,7 +99,7 @@ Horizontal and vertical containers in Tableau are useful for creating organized 
 
 4. Resizing and repositioning: With containers, you can easily resize and reposition visualizations within the container by dragging and dropping. This makes it easy to adjust the layout of your visualization as your needs change.
 
-Horizontal and vertical containers are a useful tool for organizing and presenting your visualizations in Tableau. They can help you create more flexible and dynamic layouts that are easier for users to navigate and understand. So how do we use them?
+Horizontal and vertical containers are useful tool for organizing and presenting your visualizations in Tableau. They can help you create more flexible and dynamic layouts that are easier for users to navigate and understand. So how do we use them?
 
 1. Create a container: To create a container, click on the "Horizontal" or "Vertical" container button in the "Objects" pane, and drag it onto the canvas where you want to position it.
 
@@ -121,7 +121,7 @@ We can apply filters by using the **More Options** menu. You can find this menu 
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/dashboards/more-options-2.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/data-science/images/v3/tableau/tableau/7_dashboard_basics/more-options-2.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -131,10 +131,11 @@ In this example, we add a filter for `Sales (SUM)`. In the upper-right corner, t
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/dashboards/slider.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/data-science/images/v3/tableau/tableau/7_dashboard_basics/slider.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
 
 ## Summary
 In this lesson, we introduced Tableau's Dashboard workspace and discussed some of the most important functionality, like Device Type and Objects. Then we discussed how you can add interactivity to your dashboards to allow users to ask questions of the data to gain insights. Finally, we discussed how each of these components works together to enhance the end user experience.
+
